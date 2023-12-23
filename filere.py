@@ -1,6 +1,6 @@
 import os 
-PATH_PATH = "./案例_files"
-file_lists = os.listdir("案例_files")
+PATH_PATH = "/Users/mac/Desktop/云/CASE_files"
+file_lists = os.listdir(PATH_PATH)
 
 for file_list in file_lists:
     ole_file = os.path.join(PATH_PATH,file_list)
